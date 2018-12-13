@@ -2,7 +2,15 @@ body{
     text-align: center;
     background-color: darkgrey;
 }
-
+input[type=number]{
+    background-color:black;
+    color:red;
+    padding: 20px;
+    width: 30%;
+    height: 12%;
+    box-shadow:2px 2px 5px black;
+    margin-bottom: 2%;
+}
 
 
 
