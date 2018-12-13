@@ -10,6 +10,7 @@ This webpage uses javascript functions to help in detecting the type of triangle
 * In your browser adress bar type the following
 * http://Anabella1109.github.io/Triangle-Tracker
 * And there you have it
+# BDD
 
 ## SPECS
 
@@ -31,6 +32,16 @@ This webpage uses javascript functions to help in detecting the type of triangle
 * The  program should return when a scalene triangle is detected 
     * Input Example: 12,13,14
     * Output Example:This is a scalene triangle
+### Speculations table
+
+| Behavior  Our program should handle | Input Example |Numerical Example| Output Example |
+| :----:   | :-----------: | :------------: | :---------------|
+|Accept input from user| Any two side are equal|1, 1, 1|This is an Equilateral triangle   |
+|Recognizing positive numbers| Input a negative number|-1, 1, 1|Please enter positive numbers different from zero only|
+|A triangle can't be created |No equal sides and sum of two sides is less than third side |2,3,7| This is not a triangle|
+|Triangle is equilateral  | All sides are equal|2,2,2|This is an Equilateral triangle|
+|Triangle is Isosceles|Two sides are equal | 2, 2, 4|This is an Isosceles triangle| 
+|Triangle is Scalene|No sides are equal and sum of two sides is greather than third side|12,12,14|This is a Scalene triangle|
 ## Known Bugs
 There are no known bugs yet.
 ## Technologies Used
@@ -46,11 +57,3 @@ Having any issues?Ask google
 Copyright (c) 2018 **TUYISENGE Anabella** 
 
 
-| Behavior  Our program should handle | Input Example |Numerical Example| Output Example |
-| :----:   | :-----------: | :------------: | :---------------|
-|Accept input from user| Any two side are equal|1, 1, 1|This is an Equilateral triangle   |
-|Recognizing positive numbers| Input a negative number|-1, 1, 1|Please enter positive numbers different from zero only|
-|A triangle can't be created |No equal sides and sum of two sides is less than third side |2,3,7| This is not a triangle|
-|Triangle is equilateral  | All sides are equal|2,2,2|This is an Equilateral triangle|
-|Triangle is Isosceles|Two sides are equal | 2, 2, 4|This is an Isosceles triangle| 
-|Triangle is Scalene|No sides are equal and sum of two sides is greather than third side|12,12,14|This is a Scalene triangle|
