@@ -13,4 +13,8 @@ input[type=number]{
 }
 
 
-
+form{
+    font-style: italic;
+    background-color: rgb(51, 3, 3);
+    
+}
