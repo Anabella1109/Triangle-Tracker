@@ -8,7 +8,7 @@ thirdNumber=document.getElementById("three").value;
 
 
     if(firstNumber<=0||secondNumber<=0||thirdNumber<=0){
-        output="Please enter a positive different from zero only";
+        output="Please enter positive numbers different from zero only";
     }
     else if(firstNumber===secondNumber&&secondNumber===thirdNumber){
         output="This is an Equilateral triangle";
@@ -17,11 +17,11 @@ thirdNumber=document.getElementById("three").value;
         output="This is an Isosceles triangle";
     }
     else if(((firstNumber!==secondNumber)&&(secondNumber!==thirdNumber)&&(thirdNumber!==firstNumber))&&(((firstNumber + secondNumber) > thirdNumber) && ((firstNumber +thirdNumber) > secondNumber) &&((secondNumber + thirdNumber )> firstNumber))){
-        outputt="This is a Scalene triangle";
+        output="This is a Scalene triangle";
     }
-    else {
-        output="This is not a triangle";
-    }
+     else {
+         output="This is not a triangle";
+     }
     document.getElementById("result").innerHTML=output; 
     document.getElementById("result").innerHTML+=" ";
 }
