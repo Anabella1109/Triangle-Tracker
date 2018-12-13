@@ -1,15 +1,19 @@
-var firstNumber, secondNumber ,thirdNumber,formValues;
+var firstNumber, secondNumber ,thirdNumber,formValues,text;
 formValues=document.getElementById("form1").value;
-firstNumber=document.getElementById("one").value;
-secondNumber=document.getElementById("two").value;
-thirdNumber=document.getElementById("three").value;
-function tracker(){
-     if ((one===two)&&(two===three)){
-        alert("Triangle is equivalent");  
-     }
-     else {
-         alert("not equivalent")
-     }
-}
 
-//do commits
+
+function tracker(){
+    if(firstNumber<=0||secondNumber<=0||thirdNumber<=0){
+        text="Please enter a positive number which is not zero";
+    }
+    else if(firstNumber===secondNumber&&secondNumber===thirdNumber){
+        text="This is an Equilateral triangle";
+    }
+    else if(firstNumber===secondNumber||firstNumber===thirdNumber||secondNumber===thirdNumber){
+        text="This is an Isosceles triangle";
+    }
+    else if(((firstNumber!==secondNumber)&&(secondNumber!==thirdNumber)&&(firstNumber!==thirdNumber))&&(((firstNumber+secondNumber)>thirdNumber))&&((firstNumber+thirdNumber)>secondNumber)&&((secondNumber+thirdNumber)>firstNumber)){
+        text="This is a Scalene triangle";
+    }
+    document.getElementById("result").innerHTML=text;
+}
