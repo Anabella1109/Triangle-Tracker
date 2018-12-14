@@ -17,6 +17,9 @@ This webpage uses javascript functions to help in detecting the type of triangle
 * The program should accept input from the user.
     * Input Example: 1,1,1
     * Output Example: This is an Equilateral triangle
+* The program should recognize if input field is empty
+  * Input Example: 1,1,
+  * Output Example: Input field can't be empty
 * The program should recognize positive numbers
     * Input Example: -1,1,1
     * Output Example: Please enter positive numbers different from zero only
@@ -37,6 +40,7 @@ This webpage uses javascript functions to help in detecting the type of triangle
 | Behavior  Our program should handle | Input Example |Numerical Example| Output Example |
 | :----:   | :-----------: | :------------: | :---------------|
 |Accept input from user| Any two side are equal|1, 1, 1|This is an Equilateral triangle   |
+|Recognize empty input field|No input|1,1,|Input field can't be empty
 |Recognizing positive numbers| Input a negative number|-1, 1, 1|Please enter positive numbers different from zero only|
 |A triangle can't be created |No equal sides and sum of two sides is less than third side |2,3,7| This is not a triangle|
 |Triangle is equilateral  | All sides are equal|2,2,2|This is an Equilateral triangle|
