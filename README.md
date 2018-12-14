@@ -51,7 +51,9 @@ There are no known bugs yet.
 ### back-end
 * Javascript for functionality
 ## Support and contact details
-Having any issues?Ask google
+Having any issues?
+Email:bellaxbx1109@gmail.com
+Slack:TUYISENGE Anabella
 ### License
 [MIT](https://choosealicense.com/licenses/mit/)
 Copyright (c) 2018 **TUYISENGE Anabella** 

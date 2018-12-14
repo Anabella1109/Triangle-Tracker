@@ -25,3 +25,4 @@ thirdNumber=document.getElementById("three").value;
     document.getElementById("result").innerHTML=output; 
     document.getElementById("result").innerHTML+=" ";
 }
+//change the ask google in readme
