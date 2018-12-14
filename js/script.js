@@ -8,10 +8,15 @@ secondNumber=parseInt(document.getElementById("two").value);
 thirdNumber=parseInt(document.getElementById("three").value);// storing user input in variables
 
 values=[firstNumber,secondNumber,thirdNumber];//putting variables in an array so they can  be turned in a string later
-    if(firstNumber<=0||secondNumber<=0||thirdNumber<=0){
+ if((isNaN(firstNumber))||(isNaN(secondNumber))||(isNaN(thirdNumber))){
+    output="Input field can't be empty";
+}
+    else if(firstNumber<=0||secondNumber<=0||thirdNumber<=0){
         output="Please enter positive numbers different from zero only";//checking if user's inputs are valid
         
     }
+
+    
     else if((firstNumber + secondNumber <= thirdNumber &&
         secondNumber + firstNumber <= thirdNumber) ||                               
       (firstNumber + thirdNumber <= secondNumber &&                         //checking if triangle can't be formed by checking if sum of two values is less or equal to third part
