@@ -32,6 +32,7 @@ button{
     background-color: rgb(99, 24, 24);
     color: azure;
     font-family: 'Courier New', Courier, monospace;
+    font-size-adjust: 70%;
     height:8%;
     width: 8%;
     margin-left: 30%;
