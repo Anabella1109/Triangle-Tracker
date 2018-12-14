@@ -1,9 +1,8 @@
 
 function tracker(){
-    var firstNumber,secondNumber,thirdNumber,values,text;
+    var firstNumber,secondNumber,thirdNumber,values,output;
     
     
-    var output;
 firstNumber=parseInt(document.getElementById("one").value);
 secondNumber=parseInt(document.getElementById("two").value);
 thirdNumber=parseInt(document.getElementById("three").value);
@@ -41,7 +40,7 @@ values=[firstNumber,secondNumber,thirdNumber];
      }
      document.getElementById("result").innerHTML="Sides entered("+values.join()+")"+" form: ";
     document.getElementById("result").innerHTML+=output; 
-    document.getElementById("result").innerHTML
+    
     
 
 }
